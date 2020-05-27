@@ -7,7 +7,7 @@ import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
 import { Jumbotron } from './components/Jumbotron';
-
+import  { Card } from './components/Cards';
 
 class App extends Component {
   render() {
@@ -16,12 +16,14 @@ class App extends Component {
         <Router>
           <NavigationBar />
           <Jumbotron />
+          
           <Layout>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/Projects" component={Projects} />
               <Route path="/contact" component={Contact} />
               <Route component={NoMatch} />
+              
             </Switch>
           </Layout>
         </Router>

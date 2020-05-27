@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
+import { Jumbotron as Jumbo, Container,  } from 'react-bootstrap';
 import styled from 'styled-components';
 import boatImage from '../assets/boatImage.jpg';
 
@@ -8,7 +8,7 @@ const Styles = styled.div`
     background: url(${boatImage}) no-repeat fixed bottom;
     background-size: cover;
     color: #efefef;
-    height: 200px;
+    height: 350px;
     position: relative;
     z-index: -2;
   }
@@ -33,6 +33,7 @@ export const Jumbotron = () => (
         <p>This is my portfolio, You will find out more about me below.
           Projects, And contact info!
         </p>
+        
       </Container>
     </Jumbo>
   </Styles>
