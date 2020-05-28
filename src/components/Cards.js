@@ -1,10 +1,10 @@
 import React from 'react';
 import {Card, Button} from 'react-bootstrap';
+import cardPic from '../assets/DaySch.png';
 
-
-export const Cards = () => {
+ const Cards = () => (
 <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
+  <Card.Img variant="top" src={cardPic} />
   <Card.Body>
     <Card.Title>Card Title</Card.Title>
     <Card.Text>
@@ -14,4 +14,5 @@ export const Cards = () => {
     <Button variant="primary">Go somewhere</Button>
   </Card.Body>
 </Card>
-}
+)
+export default Cards;
