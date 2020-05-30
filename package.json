@@ -1,5 +1,5 @@
 {
-  "homepage": "http://itasghar786.github.io/portfolio-3-hw",
+  
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +17,7 @@
     "yarn": "^1.22.4",
     "gh-pages": "^2.2.0"
   },
+  "homepage": " https://itasghar786.github.io/Portfolio-3-hw",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
