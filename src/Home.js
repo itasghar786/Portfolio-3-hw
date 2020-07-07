@@ -2,10 +2,37 @@ import React from 'react'
 
 export const Home = () =>(
 
-    <div>
-        <h2> Hello </h2>
-        <p>Hi I'm Asghar. I am a very hard working individual. My motto in life is that hard work can over come any obsticles.
-                               Programming has been my passion and now I am fullfilling my dream as I face the mystic world of programming.
-                              With my enthusiasm and devotion to programming, I believe that I can take my creativity to soaring heights.</p>
+    <div className=" container">
+        <h1> Skills Set</h1>
+        
+        
+            <ul>
+                <h2>FrontEnd </h2>
+            <hr></hr>
+                <li>HTML</li>
+                <li>CSS/</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>jQuery</li>
+
+                <h2>Backend</h2>
+                <hr></hr>
+
+                <li>Node</li>
+                <li>Express</li>
+                <li>MySQL/Sequelize</li>
+                <li>MongoDB/Mongoose</li>
+                <li>Web API’s /Server API’s</li>
+                <li>Full MERN Stack</li>
+
+            
+                
+                
+            
+            </ul>
+            
+
+        
+        
                               </div>
                               );

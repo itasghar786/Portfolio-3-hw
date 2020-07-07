@@ -30,8 +30,8 @@ export const Jumbotron = () => (
       <div className="overlay"></div>
       <Container>
         <h1>Welcome</h1>
-        <p>This is my portfolio, You will find out more about me below.
-          Projects, And contact info!
+        <p>Hi I'm Asghar Sheikh, A Dynamic Software Developer skilled at developing complex solutions, possessing creative thinking skills, high energy integrity. I am dedicated to constantly improve on  tools and infrastructure to maximize productivity,
+           minimize system downtime and quickly respond to the changing needs of a business
         </p>
         
       </Container>

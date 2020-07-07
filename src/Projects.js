@@ -4,10 +4,11 @@ import Cards from "./components/Cards";
 
 export const Projects = ()=> (
 
-    <div>
-
-        <h2> Projects</h2>
-        <p>This is some of my projects</p>
+    <div className= "container">
+<h2>Projects</h2>
+<hr></hr>
+    
+        
 
         <Cards />
 
